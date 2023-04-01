@@ -1,0 +1,7 @@
+# syntax: cov(x, y = NULL, use = "everything", method = c("pearson", "kendall", "spearman"))
+x = c(1,3,5,10)
+y=c(2,4,6,20)
+print(cov(x,y))
+print(cov(x,y,method = "pearson"))
+print(cov(x,y,method = "kendall"))
+print(cov(x,y,method = "spearman"))
